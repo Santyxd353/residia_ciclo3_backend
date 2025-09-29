@@ -1,0 +1,848 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "units",
+    "model": "unit"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "residents",
+    "model": "resident"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "vehicles",
+    "model": "vehicle"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "announcements",
+    "model": "announcement"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bxmwoqkthztd2kcn72v0ckhdo9b8c0ub",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyH87CJ69N5nIAtspWogKe3J-O62SQ96mmS-b-YtAq1LCWvnOUxZXIUWp98uUnpy3UF-UL03mVpd5inKXZEH7XJomV-3w_07KNTLto5gjRrZsaKsCcEhGLLRA1iCLSOzxWxQOZ1G9C6dSSmXL4l1is6j-HwB2883uw:1v0QWI:I6OwV1F17Iq9AmMxf20ksvM4FmrRX_2FLSwVrp8dOuI",
+    "expire_date": "2025-10-05T20:18:50.777Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ltg09mfxn8i2h7tas6q1k79kg673q4zr",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyH87CJ69N5nIAtspWogKe3J-O62SQ96mmS-b-YtAq1LCWvnOUxZXIUWp98uUnpy3UF-UL03mVpd5inKXZEH7XJomV-3w_07KNTLto5gjRrZsaKsCcEhGLLRA1iCLSOzxWxQOZ1G9C6dSSmXL4l1is6j-HwB2883uw:1v0QWi:DPslZAvmla7xa2HqddLK0PDhpwM80cAu3VWlaFn0zXA",
+    "expire_date": "2025-10-05T20:19:16.007Z"
+  }
+},
+{
+  "model": "units.unit",
+  "pk": 1,
+  "fields": {
+    "house_number": "16",
+    "notes": null,
+    "created_at": "2025-09-21T19:31:14.427Z"
+  }
+},
+{
+  "model": "units.unit",
+  "pk": 2,
+  "fields": {
+    "house_number": "13",
+    "notes": null,
+    "created_at": "2025-09-21T19:31:57.075Z"
+  }
+},
+{
+  "model": "units.unit",
+  "pk": 3,
+  "fields": {
+    "house_number": "12",
+    "notes": null,
+    "created_at": "2025-09-21T19:49:55.659Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add unit",
+    "content_type": [
+      "units",
+      "unit"
+    ],
+    "codename": "add_unit"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change unit",
+    "content_type": [
+      "units",
+      "unit"
+    ],
+    "codename": "change_unit"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete unit",
+    "content_type": [
+      "units",
+      "unit"
+    ],
+    "codename": "delete_unit"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view unit",
+    "content_type": [
+      "units",
+      "unit"
+    ],
+    "codename": "view_unit"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add resident",
+    "content_type": [
+      "residents",
+      "resident"
+    ],
+    "codename": "add_resident"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change resident",
+    "content_type": [
+      "residents",
+      "resident"
+    ],
+    "codename": "change_resident"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete resident",
+    "content_type": [
+      "residents",
+      "resident"
+    ],
+    "codename": "delete_resident"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view resident",
+    "content_type": [
+      "residents",
+      "resident"
+    ],
+    "codename": "view_resident"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add vehicle",
+    "content_type": [
+      "vehicles",
+      "vehicle"
+    ],
+    "codename": "add_vehicle"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change vehicle",
+    "content_type": [
+      "vehicles",
+      "vehicle"
+    ],
+    "codename": "change_vehicle"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete vehicle",
+    "content_type": [
+      "vehicles",
+      "vehicle"
+    ],
+    "codename": "delete_vehicle"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view vehicle",
+    "content_type": [
+      "vehicles",
+      "vehicle"
+    ],
+    "codename": "view_vehicle"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add announcement",
+    "content_type": [
+      "announcements",
+      "announcement"
+    ],
+    "codename": "add_announcement"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change announcement",
+    "content_type": [
+      "announcements",
+      "announcement"
+    ],
+    "codename": "change_announcement"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete announcement",
+    "content_type": [
+      "announcements",
+      "announcement"
+    ],
+    "codename": "delete_announcement"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view announcement",
+    "content_type": [
+      "announcements",
+      "announcement"
+    ],
+    "codename": "view_announcement"
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$720000$q2BWHtPfdb003oaolrVjFM$eThr4j2xo2tRuFtFh0gz10iPkQDkYmUhpRnjm/wdy0U=",
+    "last_login": "2025-09-21T20:19:16Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-09-21T19:08:38Z",
+    "email": "admin@residia.test",
+    "role": "ADMIN",
+    "status": "ACTIVE",
+    "national_id": null,
+    "phone": null,
+    "photo_url": "",
+    "groups": [],
+    "user_permissions": [
+      [
+        "view_vehicle",
+        "vehicles",
+        "vehicle"
+      ]
+    ]
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "paniaguasanti623",
+    "first_name": "Felix Santiago",
+    "last_name": "Sanchez Paniagua",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-09-21T19:31:14.423Z",
+    "email": "paniaguasanti623@gmail.com",
+    "role": "RESIDENT",
+    "status": "ACTIVE",
+    "national_id": "7169221",
+    "phone": "+59165039825",
+    "photo_url": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adasd",
+    "first_name": "fulanito",
+    "last_name": "detal",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-09-21T19:31:57.071Z",
+    "email": "adasd@gmail.com",
+    "role": "RESIDENT",
+    "status": "ACTIVE",
+    "national_id": "12345",
+    "phone": "12312312",
+    "photo_url": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "1234",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "diegomedina",
+    "first_name": "Diego",
+    "last_name": "Medina",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-09-21T19:49:55Z",
+    "email": "DiegoMedina@gmail.com",
+    "role": "ADMIN",
+    "status": "ACTIVE",
+    "national_id": "12345678",
+    "phone": "7111111",
+    "photo_url": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "1234",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "PruebaResidente",
+    "first_name": "Residente",
+    "last_name": "Residente",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-09-21T20:00:24Z",
+    "email": "Res@gmail.com",
+    "role": "RESIDENT",
+    "status": "ACTIVE",
+    "national_id": "1234567",
+    "phone": "72222222",
+    "photo_url": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "vehicles.vehicle",
+  "pk": 1,
+  "fields": {
+    "plate": "123abc",
+    "make": "kia",
+    "model": "picanto",
+    "color": "verde",
+    "user": [
+      "adasd@gmail.com"
+    ],
+    "unit": 2,
+    "created_at": "2025-09-21T19:31:57.081Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-09-21T19:30:44.729Z",
+    "user": [
+      "admin@residia.test"
+    ],
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "admin@residia.test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-09-21T20:01:04.797Z",
+    "user": [
+      "admin@residia.test"
+    ],
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "Res@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-09-21T20:02:36.261Z",
+    "user": [
+      "admin@residia.test"
+    ],
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "admin@residia.test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-09-21T20:03:23.283Z",
+    "user": [
+      "admin@residia.test"
+    ],
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "DiegoMedina@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-09-21T20:03:43.866Z",
+    "user": [
+      "admin@residia.test"
+    ],
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "DiegoMedina@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-09-21T20:04:35.655Z",
+    "user": [
+      "admin@residia.test"
+    ],
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "admin@residia.test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-09-21T20:05:56.419Z",
+    "user": [
+      "admin@residia.test"
+    ],
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "admin@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Password\", \"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-09-21T20:19:43.349Z",
+    "user": [
+      "admin@residia.test"
+    ],
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "admin@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-09-21T20:36:37.915Z",
+    "user": [
+      "admin@residia.test"
+    ],
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "admin@residia.test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User permissions\", \"Email\"]}}]"
+  }
+}
+]
